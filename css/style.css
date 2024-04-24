@@ -1,1 +1,46 @@
-.
+body {
+    background-color: rgb(203, 10, 10);
+    padding: 1%;
+}
+
+/* Selecciona el id="menu" */
+#cabecera {
+    background-color: rgb(20, 17, 169);
+    padding: 1%;
+    
+    border-radius: 5px;
+
+
+}
+
+/* Seleccion la clase class="menu-principal" */
+.menu-principal-tabla {
+
+    /* margin: 100px; */
+
+    width: 50%;
+
+    height: 35px;
+    background-color: aqua;
+
+    float: right;
+}
+
+.menu-principal-tabla td {
+
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: aquamarine;
+    
+    
+
+}
+
+#pie{
+    margin-top: 20px;
+    
+    background-color: antiquewhite;
+    text-align: center;
+}
