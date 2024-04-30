@@ -79,3 +79,7 @@ body {
 .post p{
     font-size: larger;
 }
+
+#players {
+margin: auto;
+}
