@@ -13,7 +13,7 @@ body {
 
 
 }
-
+  
 /* Seleccion la clase class="menu-principal" */
 .menu-principal-tabla {
 
@@ -35,47 +35,41 @@ body {
     
 }
 
-#pie{
-    margin-top: 20px;
-    
-    background-color: antiquewhite;
+  
+  h1 {
     text-align: center;
-}
-
-
-/* Estilos para la tarjeta */
-.tarjeta {
-    width: 400px;
-    height: 200px;;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    color: #333;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label,
+  input,
+  textarea {
+    
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 5px;
   }
   
-  /* Efecto de hover */
-  .tarjeta:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
   }
-
-
-/* Tabla juegos */
-  #tablajuegos {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    
+  
+  button:hover {
+    background-color: #45a049;
   }
-
-  #tablajuegos td{
-    padding: 10px;
-  }
-
-
-.post {
-    text-align: center;
-
-  }
-.post p{
-    font-size: larger;
-}
