@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(203, 10, 10);
+    background-color: rgb(156, 144, 144);
     padding: 1%;
 }
 
 /* Selecciona el id="menu" */
 #cabecera {
-    background-color: rgb(20, 17, 169);
+    background-color: #0d405b;
     padding: 1%;
     
     border-radius: 5px;
@@ -21,7 +21,7 @@ body {
     width: 50%;
 
     height: 35px;
-    background-color: aqua;
+    background-color:    #1873a4;
 
     float: right;
 }
@@ -32,7 +32,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.1em;
     text-align: center;
-    background-color: aquamarine;
+    background-color: #239cde;
     
     
 
@@ -44,3 +44,19 @@ body {
     background-color: antiquewhite;
     text-align: center;
 }
+
+
+/* Estilos para la tarjeta */
+.tarjeta {
+    width: 400px;
+    height: 200px;;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  /* Efecto de hover */
+  .tarjeta:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
